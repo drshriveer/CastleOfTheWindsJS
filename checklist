@@ -1,0 +1,22 @@
+√ make checklist
+Goal                    Detail                                           Who
+Set up basic classes    each structure needs a class. Basics are []      Robby
+Create base UI          Create static / base UI with bootstrap 
+                        (+jquery), panes [file menu bar, action menu 
+                        bar, spell menu (accepts js array, calls 
+                        relevent action), main map]                      Robby
+  Add JS/CSS libraries shown in index file comments bootstrap, jquery, underscore 
+  File menu bar -> just add all needed dropdowns, we will fill in actions later (spells, activate, accept arrays for drop downs)  
+  Action menu bar -> add static buttons, add LIST of (icons) for spells and invokes the spell's action    
+  Add place holders (EX: table structure -- don't use tables, use bootstrap grid) for main map , status section   
+  Make a class for tiles (copy other class if needed) 
+
+
+Create Maps             At least 2 seperate levels                        Robby
+    
+Set up server           Set up the server and show Robby how to use       Gavin
+Savegame structure      How to best save and load (is it doable to
+                        save the entire state of the game in the webapp?) Gavin
+Implement Event System  who knows!!?                                      Gavin
+Create inv template     create inventory template for viewing self inv,
+                        bags, belts, purse, shops                         Gavin
