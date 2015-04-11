@@ -15,5 +15,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "lodash": "~3.6.0",
+    "momentjs": "~2.10.2",
+    "jquery": "~2.1.3"
+  }
 }

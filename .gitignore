@@ -1,4 +1,6 @@
 **/.*
+!.bowerrc
+!.gitkeep
 bin/
+public/libraries
 **/node_modules/
-**/bower_components/
