@@ -1,0 +1,19 @@
+{
+  "name": "CastleOfTheWinds",
+  "version": "0.0.0",
+  "homepage": "https://github.com/drshriveer/CastleOfTheWindsJS",
+  "description": "A javascript remake of the classic game Castle Of The Winds.",
+  "authors": [
+    "Robby Bowie",
+    "Gavin Shriver"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
