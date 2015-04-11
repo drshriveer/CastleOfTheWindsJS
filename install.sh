@@ -1,6 +1,6 @@
 #!/bin/bash
-npm install node
-npm install bower
+npm install -g node
+npm install -g bower
 
-node install
+npm install
 bower install
