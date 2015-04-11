@@ -41,16 +41,16 @@ var TILES = {
   WELL: {
     name: "WELL",
     imageUrl: "",
-    solid: false,
+    solid: true,
     action: null,
     info: "A small well"
   }
 
 // Fixture Tiles
   SHOP_DOOR: {
-    name: "DIRT",
+    name: "SHOP_DOOR",
     imageUrl: "", 
-    solid: false,
+    solid: true,
     action: function(){
       // Open Shop?
     }
