@@ -1,2 +1,6 @@
-.DS_Store
-**/.DS_Store
+**/.*
+!.bowerrc
+!.gitkeep
+bin/
+public/libraries
+**/node_modules/
