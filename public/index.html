@@ -23,7 +23,7 @@
     <header>
       <!-- Menu Bar [File][Character!][Inventory!][Map!][Spells][Activate][Verbs][Window][Help] -->
       <nav class="navbar navbar-default menu">
-        <div class="container-fluid">
+        <div class="margin-0">
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active">
@@ -40,38 +40,38 @@
                       <a href="#" class="loadGame">Load</a>
                     </li>
                     <li>
-                      <a href="#">Save</a>
+                      <a href="#" class="saveGame">Save</a>
                     </li>
                     <li>
-                      <a href="#">Save as</a>
+                      <a href="#" class="saveAs">Save as</a>
                     </li>
                     <li>
-                      <a href="#">Options</a>
+                      <a href="#" class="gameOptions">Options</a>
                     </li>
                     <li>
-                      <a href="#">Review Story</a>
+                      <a href="#" class="reviewStory">Review Story</a>
                     </li>
                     <li>
-                      <a href="#">Exit</a>
+                      <a href="#" class="exitGame">Exit</a>
                     </li>
                   </ul>
                 </li>
               </li>
 
               <li>
-                <a href="#" role="button">
+                <a href="#" role="button" class="character">
                   Character!
                 </a>
               </li>
 
               <li>
-                <a href="#" role="button">
+                <a href="#" role="button" class="inventory">
                   Inventory!
                 </a>
               </li>
 
               <li>
-                <a href="#" role="button">
+                <a href="#" role="button" class="map">
                   Map!
                 </a>
               </li>
@@ -89,10 +89,10 @@
                     <a href="#">1:Fire Bolt</a>
                   </li>
                   <li>
-                    <a href="#">Spell Book</a>
+                    <a href="#" class="spellBook">Spell Book</a>
                   </li>
                   <li>
-                    <a href="#">Customize Spell Menu</a>
+                    <a href="#" class="customizeSpellMenu">Customize Spell Menu</a>
                   </li>
                 </ul>
               </li>
@@ -128,44 +128,44 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>
-                    <a href="#">Get</a>
+                    <a href="#" class="getCommand">Get</a>
                   </li>
                   <li>
-                    <a href="#">Examine</a>
+                    <a href="#" class="examineCommand">Examine</a>
                   </li>
                   <li>
-                    <a href="#">Free Hand</a>
+                    <a href="#" class="freeHandCommand">Free Hand</a>
                   </li>
                   <li>
-                    <a href="#">Search</a>
+                    <a href="#" class="searchCommand">Search</a>
                   </li>
                   <li>
-                    <a href="#">Disarm Trap</a>
+                    <a href="#" class="disarmTrapCommand">Disarm Trap</a>
                   </li>
                   <li>
-                    <a href="#">Rest Until Healed</a>
+                    <a href="#" class="restCommand">Rest Until Healed</a>
                   </li>
                   <li>
-                    <a href="#">Sleep Until Mana is Restored</a>
+                    <a href="#" class="sleepCommand">Sleep Until Mana is Restored</a>
                   </li>
                   <li>
-                    <a href="#">Open</a>
+                    <a href="#" class="openCommand">Open</a>
                   </li>
                   <li>
-                    <a href="#">Close</a>
+                    <a href="#" class="closeCommand">Close</a>
                   </li>
                   <li>
-                    <a href="#">< Climb Up Stairs</a>
+                    <a href="#" class="climbUpCommand">< Climb Up Stairs</a>
                   </li>
                   <li>
-                    <a href="#">> Climb Down Stairs</a>
+                    <a href="#" class="climbDownCommand">> Climb Down Stairs</a>
                   </li>
                 </ul>
               </li>
 
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                  Window
+                  Window <!--do we need a window option?? -->
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
@@ -175,9 +175,6 @@
                   <li>
                     <a href="#">Another action</a>
                   </li>
-<<<<<<< HEAD
-=======
->>>>>>> master
                 </ul>
               </li>
 
@@ -188,35 +185,35 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>
-                    <a href="#">Help Contents</a>
+                    <a href="#" class="helpContents">Help Contents</a>
                   </li>
                   <li>
-                    <a href="#">Keyboard Commands</a>
+                    <a href="#" class="keyboardCommands">Keyboard Commands</a>
                   </li>
                   <li>
-                    <a href="#">Mouse Commands</a>
+                    <a href="#" class="mouseCommands">Mouse Commands</a>
                   </li>
                   <li>
-                    <a href="#">Spell Directory</a>
+                    <a href="#" class="spellDirectory">Spell Directory</a>
                   </li>
                   <li>
-                    <a href="#">Object Directory</a>
+                    <a href="#" class="objectDirectory">Object Directory</a>
                   </li>
                   <li>
-                    <a href="#">Bestiary</a>
+                    <a href="#" class="bestiary">Bestiary</a>
                   </li>
                   <li>
-                    <a href="#">Help on Help</a>
+                    <a href="#" class="helpOnHelp">Help on Help</a>
                   </li>
                   <li>
-                    <a href="#">High Scores</a>
+                    <a href="#" class="highScores">High Scores</a>
                   </li>
                   <li class="divider"></li>
                   <li>
-                    <a href="#">Order Information</a>
+                    <a href="#" class="orderInfo">Order Information</a>
                   </li>
                   <li>
-                    <a href="#">About Castle of the Winds</a>
+                    <a href="#" class="aboutCOTW">About Castle of the Winds</a>
                   </li>
                 </ul>
               </li>
@@ -226,10 +223,8 @@
         </div>
       </nav>
       <!-- end top file bar -->
-      <div class="row container-fluid margin-0">
+      <div class="row margin-0">
         <div class="col-md-6">
-          <!-- turn these into lists of things -->
-          <!-- <p>[Get]  [Free Hand]  [Search]  [Disarm]  [Rest]  [Save]</p> -->
           <ul class="list-inline">
             <li>Get</li>
             <li>Free Hand</li>
@@ -261,6 +256,7 @@
     <section>
       <div class="row margin-0">
         <div class="clearfix visible-md-block"></div>
+  <!-- Dungeon Window [Currently a blank space that will eventually render the world] -->
         <div class="col-md-12">
           <p class="mapStyle">
           Dungeon Window  XXXXXXXXXXXXXXXXXXX
@@ -298,22 +294,11 @@
     <!-- FOOTER: DESCRIPTION AND STATUS -->
     <footer class="navbar-fixed-bottom">
       <div class="row margin-0">
+  <!-- Description Window [Contains action text and info based on player input] -->
         <div class="col-md-8"><p class="mapStyle">Description Window</p></div>
+  <!-- Status Window [HP current(max)][Mana c(m)][Speed c%/m%][Time Elapsed][Location]-->
         <div class="col-md-4"><p class="mapStyle">StatusWindow</p></div>
       </div>
     </footer>
-
-  <!-- Dungeon Window [Currently a blank space that will eventually render the world] -->
-
-  <!-- Description Window [Contains action text and info based on player input] -->
-  <!-- Status Window [HP current(max)][Mana c(m)][Speed c%/m%][Time Elapsed][Location]-->
-  <!--  -->
-
-
-  <!-- top title bar -->
-  <!-- action bar -->
-  <!-- play window (blank ==> place holder) -->
-
-
   </body>
 </html>
