@@ -7,15 +7,17 @@
     <!-- bootstrap site shows src tags like these at the end of body -->
     <title>Castle of the Winds</title>
 
-    <!-- Bootstrap -->
-    <link href="libraries/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="libraries/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
-    <!-- add src tags for bootstrap -->
-    <script src="libraries/bootstrap/dist/js/bootstrap.js"></script>
     <!-- add src tags for jquery -->
     <script src="libraries/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="libraries/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="libraries/bootstrap/dist/css/bootstrap-theme.css">
+    <!-- add src tags for bootstrap -->
+    <script src="libraries/bootstrap/dist/js/bootstrap.js"></script>
     <!-- add src tags for underscore(lodash??) -->
     <script src="libraries/lodash/lodash.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
   </head>
   <body>
     <header>
@@ -246,60 +248,70 @@
           </div>
         </div>
       </nav>
+      <!-- end top file bar -->
+      <div class="row container-fluid margin-0">
+        <div class="col-md-6">
+          <!-- turn these into lists of things -->
+          <!-- <p>[Get]  [Free Hand]  [Search]  [Disarm]  [Rest]  [Save]</p> -->
+          <ul class="list-inline">
+            <li>Get</li>
+            <li>Free Hand</li>
+            <!-- etc -->
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <!-- list: -->
+          <p>[S1]  [S2]  [S3]  [S4]  [S5]  [S6]  [S7]  [S8]  [S9]  [S10]</p>
+        </div>
+      </div>
     </header>
 
-    <style type="text/css">
-    p{
-        padding: 20px;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        background: #f2f2f2;
-    }
-    </style>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6"><p>[Get]  [Free Hand]  [Search]  [Disarm]  [Rest]  [Save]</p></div>
-            <div class="col-md-6"><p>[S1]  [S2]  [S3]  [S4]
-            [S5]  [S6]  [S7]  [S8]  [S9]  [S10]</p></div>
-            <div class="clearfix visible-md-block"></div>
-            <div class="col-md-12"><p>  Dungeon Window  XXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </p></div>
-            <div class="clearfix visible-md-block"></div>
-            <div class="col-md-8"><p>Description Window</p></div>
-            <div class="col-md-4"><p>StatusWindow</p></div>
-            <div class="clearfix visible-md-block"></div>
+    <section>
+      <div class="row margin-0">
+        <div class="clearfix visible-md-block"></div>
+        <div class="col-md-12">
+          <p class="mapStyle">
+          Dungeon Window  XXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          </p>
         </div>
-    </div>
+      </div>
+    </section>
 
-  
+    <!-- FOOTER: DESCRIPTION AND STATUS -->
+    <footer>
+      <div class="row margin-0">
+        <div class="col-md-8"><p class="mapStyle">Description Window</p></div>
+        <div class="col-md-4"><p class="mapStyle">StatusWindow</p></div>
+      </div>
+    </footer>
+
   <!-- Button Bar knowns [Get][Free Hand][Search][Disarm][Rest][Save] -->
   <!-- Button Bar unknowns [spell1][spell2][spell3]...[spell10] populates via array of spellbook-->
   <!-- Dungeon Window [Currently a blank space that will eventually render the world] -->
