@@ -14,27 +14,51 @@
   *
 + Notes:
   + use bootstrap
+ 
 ###### assigned to Robby
 
-##### Making Classes
-* √ Make classes for tiles
+##### Making Static Classes
+* √ Make tiles
 * √ Make Maps
-###### assigned to Robby
+* √ Make Spells
 
-##### Save Game Structure
-+ Notes:
-  + this is more of a just something to keep in mind for later
-###### assigned to Gavin
+###### assigned to Robby
 
 ##### Implement Event System
 * Should have event class that things can inherit
 * Set up the pub/sub app.vent
+
 ###### assigned to Gavin
 
 ##### Inventory Template
 * Create inventory template for viewing self inv, bags, belts, purse, shops
+
 ###### assigned to Gavin
 
 ##### Investigate grunt
 * In particular for minifying
+
 ###### assigned to Gavin
+
+##### Save Game Structure
++ Notes:
+  + this is more of a just something to keep in mind for later
+
+###### assigned to Gavin
+
+##### Map initial render
+* How do we feed a "map" into a function that will
+  A. Turn the template into squares and a picture?
+  B. Zoom in only on the person and their current view of the world
+
+###### assigned to Robby
+
+##### Movement on the map
+* How does a character continue to move on the map
++ Notes:
+  + perhaps all maps need to add an extra buffer to the edges so they can move down further
+  + css / overflow etc
+  + arrow keys to move scrolling position?
+
+###### assigned to Robby
+
