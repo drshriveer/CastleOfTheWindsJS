@@ -1,0 +1,36 @@
+1) stage everything for a commit 
+
+   git add path/to/file/to/add.js
+   - OR - (if you're SURE you want to add everything)
+   git add .
+
+2) commit with message
+
+   git commit -m "type message here"
+   - OR - (better!)
+   git commit
+   type: "i"
+   type: commit message
+   type: esc key
+   type: ":wq"  (:<- command, w <- write, q <- quit)
+   type: enter key 
+
+3) merge master into your branch
+   git checkout master
+   git pull origin master
+   (this should fast forward, if not you were working on the wrong branch)
+   git checkout theBranchYouWereWorkingOn (Robby)
+   git merge master
+
+4) resolve conflicts if any
+
+   it will tell you where conflicts are and paste code 
+   into files.. fix them as needed
+
+5) stage & commit again (only if there were conflicts) 
+
+   (steps 1 and 2 again)
+
+6) push to your local branch 
+
+   git push -u <origin or remote> < robby or custom branch>
