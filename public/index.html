@@ -22,7 +22,7 @@
   <body>
     <header>
       <!-- Menu Bar [File][Character!][Inventory!][Map!][Spells][Activate][Verbs][Window][Help] -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default menu">
         <div class="container-fluid">
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -34,94 +34,46 @@
                   </a>
                   <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                     <li>
-                      <a href="#">Action</a>
+                      <a href="#" class="newGame">New Game</a>
                     </li>
                     <li>
-                      <a href="#">Another action</a>
+                      <a href="#" class="loadGame">Load</a>
                     </li>
                     <li>
-                      <a href="#">Something else here</a>
+                      <a href="#">Save</a>
                     </li>
                     <li>
-                      <a href="#">Separated link</a>
+                      <a href="#">Save as</a>
                     </li>
                     <li>
-                      <a href="#">One more separated link</a>
+                      <a href="#">Options</a>
+                    </li>
+                    <li>
+                      <a href="#">Review Story</a>
+                    </li>
+                    <li>
+                      <a href="#">Exit</a>
                     </li>
                   </ul>
                 </li>
               </li>
 
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <li>
+                <a href="#" role="button">
                   Character!
-                  <span class="caret"></span>
                 </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a href="#">Something else here</a>
-                  </li>
-                  <li>
-                    <a href="#">Separated link</a>
-                  </li>
-                  <li>
-                    <a href="#">One more separated link</a>
-                  </li>
-                </ul>
               </li>
 
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <li>
+                <a href="#" role="button">
                   Inventory!
-                  <span class="caret"></span>
                 </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a href="#">Something else here</a>
-                  </li>
-                  <li>
-                    <a href="#">Separated link</a>
-                  </li>
-                  <li>
-                    <a href="#">One more separated link</a>
-                  </li>
-                </ul>
               </li>
 
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <li>
+                <a href="#" role="button">
                   Map!
-                  <span class="caret"></span>
                 </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a href="#">Something else here</a>
-                  </li>
-                  <li>
-                    <a href="#">Separated link</a>
-                  </li>
-                  <li>
-                    <a href="#">One more separated link</a>
-                  </li>
-                </ul>
               </li>
 
               <li class="dropdown">
@@ -130,20 +82,17 @@
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
-                  <li>
-                    <a href="#">Action</a>
+                  <li> <!--Examples only for now-->
+                    <a href="#">0:Magic Arrow</a>
                   </li>
                   <li>
-                    <a href="#">Another action</a>
+                    <a href="#">1:Fire Bolt</a>
                   </li>
                   <li>
-                    <a href="#">Something else here</a>
+                    <a href="#">Spell Book</a>
                   </li>
                   <li>
-                    <a href="#">Separated link</a>
-                  </li>
-                  <li>
-                    <a href="#">One more separated link</a>
+                    <a href="#">Customize Spell Menu</a>
                   </li>
                 </ul>
               </li>
@@ -155,19 +104,19 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>
-                    <a href="#">Action</a>
+                    <a href="#">A:Item</a>
                   </li>
                   <li>
-                    <a href="#">Another action</a>
+                    <a href="#">B:Item</a>
                   </li>
                   <li>
-                    <a href="#">Something else here</a>
+                    <a href="#">C:Item</a>
                   </li>
                   <li>
-                    <a href="#">Separated link</a>
+                    <a href="#">D:Item</a>
                   </li>
                   <li>
-                    <a href="#">One more separated link</a>
+                    <a href="#">should add li's dynamically</a>
                   </li>
                 </ul>
               </li>
@@ -179,19 +128,37 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>
-                    <a href="#">Action</a>
+                    <a href="#">Get</a>
                   </li>
                   <li>
-                    <a href="#">Another action</a>
+                    <a href="#">Examine</a>
                   </li>
                   <li>
-                    <a href="#">Something else here</a>
+                    <a href="#">Free Hand</a>
                   </li>
                   <li>
-                    <a href="#">Separated link</a>
+                    <a href="#">Search</a>
                   </li>
                   <li>
-                    <a href="#">One more separated link</a>
+                    <a href="#">Disarm Trap</a>
+                  </li>
+                  <li>
+                    <a href="#">Rest Until Healed</a>
+                  </li>
+                  <li>
+                    <a href="#">Sleep Until Mana is Restored</a>
+                  </li>
+                  <li>
+                    <a href="#">Open</a>
+                  </li>
+                  <li>
+                    <a href="#">Close</a>
+                  </li>
+                  <li>
+                    <a href="#">< Climb Up Stairs</a>
+                  </li>
+                  <li>
+                    <a href="#">> Climb Down Stairs</a>
                   </li>
                 </ul>
               </li>
@@ -227,19 +194,35 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>
-                    <a href="#">Action</a>
+                    <a href="#">Help Contents</a>
                   </li>
                   <li>
-                    <a href="#">Another action</a>
+                    <a href="#">Keyboard Commands</a>
                   </li>
                   <li>
-                    <a href="#">Something else here</a>
+                    <a href="#">Mouse Commands</a>
                   </li>
                   <li>
-                    <a href="#">Separated link</a>
+                    <a href="#">Spell Directory</a>
                   </li>
                   <li>
-                    <a href="#">One more separated link</a>
+                    <a href="#">Object Directory</a>
+                  </li>
+                  <li>
+                    <a href="#">Bestiary</a>
+                  </li>
+                  <li>
+                    <a href="#">Help on Help</a>
+                  </li>
+                  <li>
+                    <a href="#">High Scores</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#">Order Information</a>
+                  </li>
+                  <li>
+                    <a href="#">About Castle of the Winds</a>
                   </li>
                 </ul>
               </li>
@@ -256,13 +239,27 @@
           <ul class="list-inline">
             <li>Get</li>
             <li>Free Hand</li>
-            <!-- etc -->
+            <li>Search</li>
+            <li>Disarm</li>
+            <li>Rest</li>
+            <li>Save</li>
           </ul>
         </div>
 
         <div class="col-md-6">
-          <!-- list: -->
-          <p>[S1]  [S2]  [S3]  [S4]  [S5]  [S6]  [S7]  [S8]  [S9]  [S10]</p>
+  <!-- Button Bar unknowns [spell1][spell2][spell3]...[spell10] populates via array of spellbook-->
+          <ul class="list-inline">
+            <li>S1</li>
+            <li>S2</li>
+            <li>S3</li>
+            <li>S4</li>
+            <li>S5</li>
+            <li>S6</li>
+            <li>S7</li>
+            <li>S8</li>
+            <li>S9</li>
+            <li>S10</li>
+          </ul>
         </div>
       </div>
     </header>
@@ -305,15 +302,13 @@
     </section>
 
     <!-- FOOTER: DESCRIPTION AND STATUS -->
-    <footer>
+    <footer class="navbar-fixed-bottom">
       <div class="row margin-0">
         <div class="col-md-8"><p class="mapStyle">Description Window</p></div>
         <div class="col-md-4"><p class="mapStyle">StatusWindow</p></div>
       </div>
     </footer>
 
-  <!-- Button Bar knowns [Get][Free Hand][Search][Disarm][Rest][Save] -->
-  <!-- Button Bar unknowns [spell1][spell2][spell3]...[spell10] populates via array of spellbook-->
   <!-- Dungeon Window [Currently a blank space that will eventually render the world] -->
 
   <!-- Description Window [Contains action text and info based on player input] -->
