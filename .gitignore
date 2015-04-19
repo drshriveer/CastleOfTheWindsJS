@@ -4,3 +4,4 @@
 bin/
 public/libraries
 **/node_modules/
+sftp-config.json
