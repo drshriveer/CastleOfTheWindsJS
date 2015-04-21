@@ -1,12 +1,16 @@
 .mapArea {
   margin-top: 7%;
   margin-bottom: 15%;
+  overflow: scroll;
+  width: 100%;
 }
 
 .tileRow {
   padding: 0px;
   margin: 0px;
   line-height: 0px;
+  max-height: 3.2em;
+  width: 100%;
 }
 .tile {
   width: 3.2em;
