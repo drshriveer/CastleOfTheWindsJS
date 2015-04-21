@@ -7,140 +7,154 @@ if(window.app == null ||
 app.TILES = {
 // Basic Environment Tiles
   BLANK: {
-    background: "#FFFFFF",
-    name: "BLANK",
-    imageUrl: "",
-    solid: true,
     action: null,
+    background: "#FFFFFF",
+    friendly: true,
+    imageUrl: "",
     info: "The Emptiness",
+    name: "BLANK",
+    solid: true,
   },
 
   DIRT: {
-    background: "#7F5217",
-    name: "DIRT",
-    imageUrl: "",
-    solid: false,
     action: null,
+    background: "#7F5217",
+    friendly: true,
+    imageUrl: "",
     info: "Just some dirt",
+    name: "DIRT",
+    solid: false,
+    containedObjects: []
   },
 
   GRASS: {
-    background: "#348017",
-    name: "GRASS",
-    imageUrl: "",
-    solid: false,
     action: null,
+    background: "#348017",
+    friendly: true,
+    imageUrl: "",
     info: "Just some grass",
+    name: "GRASS",
+    solid: false,
   },
 
   RIVER: {
-    background: "#3090C7",
-    name: "RIVER",
-    imageUrl: "",
-    solid: true,
     action: null,
+    background: "#3090C7",
+    friendly: true,
+    imageUrl: "",
     info: "Just some water",
+    name: "RIVER",
+    solid: true,
   },
 
   GARDEN: {
-    background: "#EDE275",
-    name: "GARDEN",
-    imageUrl: "",
-    solid: false,
     action: null,
-    info: "A small garden"
+    background: "#EDE275",
+    friendly: true,
+    imageUrl: "",
+    info: "A small garden",
+    name: "GARDEN",
+    solid: false,
   },
 
   WELL: {
-    background: "#566D7E",
-    name: "WELL",
-    imageUrl: "",
-    solid: true,
     action: null,
-    info: "A small well"
+    background: "#566D7E",
+    friendly: true,
+    imageUrl: "",
+    info: "A small well",
+    name: "WELL",
+    solid: true,
   },
 
 // Fixture Tiles
   SHOP_DOOR: {
     background: "#806517",
-    name: "SHOP_DOOR",
+    friendly: true,
     imageUrl: "",
+    name: "SHOP_DOOR",
     solid: true,
-    action: function(){
-      // Open Shop?
-    },
+    action: function(){},
     info: "",
+      // Open Shop?
   },
 
   CLOSED_DOOR: {
-    background: "#806517",
-    name: "CLOSED_DOOR",
-    imageUrl: "",
-    solid: true,
     action: null, // Need an action to replace with open door or alert "Locked!"?
+    background: "#806517",
+    friendly: true,
+    imageUrl: "",
     info: "A closed door",
+    name: "CLOSED_DOOR",
+    solid: true,
   },
 /*
   LOCKED_DOOR: {  // May not need?
-    name: "LOCKED_DOOR".
     imageUrl: "",
+    name: "LOCKED_DOOR".
+    info: "A locked door",
     solid: true,
     action: null // Need an action to replace with open door or alert "Locked!"?
-    info: "A locked door",
   },
 */
   OPEN_DOOR: {
-    background: "#806517",
-    name: "OPEN_DOOR",
-    imageUrl: "",
-    solid: false,
     action: null,
+    background: "#806517",
+    friendly: true,
+    imageUrl: "",
     info: "A door that is standing open",
+    name: "OPEN_DOOR",
+    solid: false,
   },
 
   BROKEN_DOOR: {
-    background: "#806517",
-    name: "BROKEN_DOOR",
-    imageUrl: "",
-    solid: false,
     action: null,
+    background: "#806517",
+    friendly: true,
+    imageUrl: "",
     info: "A door that looks to have been staved in",
+    name: "BROKEN_DOOR",
+    solid: false,
   },
 
   WALL: {
-    background: "#848482",
-    name: "WALL",
-    imageUrl: "",
-    solid: true,
     action: null,
+    background: "#848482",
+    friendly: true,
+    imageUrl: "",
     info: "An impassable wall",
+    name: "WALL",
+    solid: true,
   },
 
   SIGN: {
-    background: "#FFFFC2",
-    name: "SIGN",
-    imageUrl: "",
-    solid: false,
     action: null, // Maybe the action can be a lookup of the closest shop door for sign text?
+    background: "#FFFFC2",
+    friendly: true,
+    imageUrl: "",
     info: "A shop sign", // Will need to incorporate the ability to have diff sign text for each
+    name: "SIGN",
+    solid: false,
   },
 
   HOUSE: { // This will prob need to be 4-10(?) separate tiles
-    background: "#C19A6B",
-    name: "HOUSE",
-    imageUrl: "",
-    solid: true,
     action: null,
+    background: "#C19A6B",
+    friendly: true,
+    imageUrl: "",
     info: "A house",
+    name: "HOUSE",
+    solid: true,
   },
 
   ARCH: { // This will prob need to be 3 separate tiles
-    background: "#5C5858",
-    name: "ARCH",
-    imageUrl: "",
-    solid: true,
     action: null,
+    background: "#5C5858",
+    friendly: true,
+    imageUrl: "",
     info: "An Impressive Arch",
+    name: "ARCH",
+    solid: true,
   },
 
 }; // Final brace and semi
