@@ -35,3 +35,17 @@ var VILLAGE_MAP =
   [o, o, G, G, G, G, G, G, H, H, H, G, D, D, D, G, H, H, H, G, G, G, G, G, G, G, G, o, o, o],
   [o, o, G, G, G, G, G, G, G, G, G, G, G, D, G, G, G, G, G, G, G, G, G, G, G, G, G, o, o, o],
 ];
+
+
+// class Map {
+//   spawnPoint:
+//   map: null
+
+//   var constructor = function(map){
+//     this.map = _.cloneDeep(map);
+//   }
+//   var getTile = function(row, col) {
+
+//   }
+
+// }
