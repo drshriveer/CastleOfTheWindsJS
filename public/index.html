@@ -7,6 +7,56 @@
   <!-- bootstrap site shows src tags like these at the end of body -->
   <title>Castle of the Winds</title>
 
+<<<<<<< HEAD
+    <!-- add src tags for jquery -->
+    <script src="libraries/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="libraries/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="libraries/bootstrap/dist/css/bootstrap-theme.css">
+    <!-- add src tags for bootstrap -->
+    <script src="libraries/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- add src tags for underscore(lodash??) -->
+    <script src="libraries/lodash/lodash.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  </head>
+  <body>
+    <header>
+      <!-- Menu Bar [File][Character!][Inventory!][Map!][Spells][Activate][Verbs][Window][Help] -->
+      <nav class="navbar navbar-default menu">
+        <div class="margin-0">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" id="dropdownMenu1">
+                  File
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li>
+                      <a href="#" class="newGame">New Game</a>
+                    </li>
+                    <li>
+                      <a href="#" class="loadGame">Load</a>
+                    </li>
+                    <li>
+                      <a href="#" class="saveGame">Save</a>
+                    </li>
+                    <li>
+                      <a href="#" class="saveAs">Save as</a>
+                    </li>
+                    <li>
+                      <a href="#" class="gameOptions">Options</a>
+                    </li>
+                    <li>
+                      <a href="#" class="reviewStory">Review Story</a>
+                    </li>
+                    <li>
+                      <a href="#" class="exitGame">Exit</a>
+                    </li>
+                  </ul>
+=======
   <!-- add src tags for jquery -->
   <script src="libraries/jquery/dist/jquery.js"></script>
   <!-- Bootstrap -->
@@ -42,6 +92,7 @@
               <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                 <li>
                   <a href="#" class="newGame">New Game</a>
+>>>>>>> master
                 </li>
                 <li>
                   <a href="#" class="loadGame">Load</a>
@@ -93,17 +144,56 @@
                 <a href="#">0:Magic Arrow</a>
               </li>
               <li>
+<<<<<<< HEAD
+                <a href="#" role="button" class="character">
+                  Character!
+                </a>
+=======
                 <a href="#">1:Fire Bolt</a>
+>>>>>>> master
               </li>
               <li>
+<<<<<<< HEAD
+                <a href="#" role="button" class="inventory">
+                  Inventory!
+                </a>
+=======
                 <a href="#">Spell Book</a>
+>>>>>>> master
               </li>
               <li>
+<<<<<<< HEAD
+                <a href="#" role="button" class="map">
+                  Map!
+                </a>
+=======
                 <a href="#">Customize Spell Menu</a>
+>>>>>>> master
               </li>
             </ul>
           </li>
 
+<<<<<<< HEAD
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                  Spells
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li> <!--Examples only for now-->
+                    <a href="#">0:Magic Arrow</a>
+                  </li>
+                  <li>
+                    <a href="#">1:Fire Bolt</a>
+                  </li>
+                  <li>
+                    <a href="#" class="spellBook">Spell Book</a>
+                  </li>
+                  <li>
+                    <a href="#" class="customizeSpellMenu">Customize Spell Menu</a>
+                  </li>
+                </ul>
+=======
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
               Activate
@@ -112,10 +202,54 @@
             <ul class="dropdown-menu" role="menu">
               <li>
                 <a href="#">A:Item</a>
+>>>>>>> master
               </li>
               <li>
                 <a href="#">B:Item</a>
               </li>
+<<<<<<< HEAD
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                  Verbs
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#" class="getCommand">Get</a>
+                  </li>
+                  <li>
+                    <a href="#" class="examineCommand">Examine</a>
+                  </li>
+                  <li>
+                    <a href="#" class="freeHandCommand">Free Hand</a>
+                  </li>
+                  <li>
+                    <a href="#" class="searchCommand">Search</a>
+                  </li>
+                  <li>
+                    <a href="#" class="disarmTrapCommand">Disarm Trap</a>
+                  </li>
+                  <li>
+                    <a href="#" class="restCommand">Rest Until Healed</a>
+                  </li>
+                  <li>
+                    <a href="#" class="sleepCommand">Sleep Until Mana is Restored</a>
+                  </li>
+                  <li>
+                    <a href="#" class="openCommand">Open</a>
+                  </li>
+                  <li>
+                    <a href="#" class="closeCommand">Close</a>
+                  </li>
+                  <li>
+                    <a href="#" class="climbUpCommand">< Climb Up Stairs</a>
+                  </li>
+                  <li>
+                    <a href="#" class="climbDownCommand">> Climb Down Stairs</a>
+                  </li>
+                </ul>
+=======
               <li>
                 <a href="#">C:Item</a>
               </li>
@@ -124,10 +258,26 @@
               </li>
               <li>
                 <a href="#">should add li's dynamically</a>
+>>>>>>> master
               </li>
             </ul>
           </li>
 
+<<<<<<< HEAD
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                  Window <!--do we need a window option?? -->
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Another action</a>
+                  </li>
+                </ul>
+=======
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
               Verbs
@@ -160,6 +310,7 @@
               </li>
               <li>
                 <a href="#">Close</a>
+>>>>>>> master
               </li>
               <li>
                 <a href="#"> Climb Up Stairs</a>
@@ -170,6 +321,46 @@
             </ul>
           </li>
 
+<<<<<<< HEAD
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                  Help
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#" class="helpContents">Help Contents</a>
+                  </li>
+                  <li>
+                    <a href="#" class="keyboardCommands">Keyboard Commands</a>
+                  </li>
+                  <li>
+                    <a href="#" class="mouseCommands">Mouse Commands</a>
+                  </li>
+                  <li>
+                    <a href="#" class="spellDirectory">Spell Directory</a>
+                  </li>
+                  <li>
+                    <a href="#" class="objectDirectory">Object Directory</a>
+                  </li>
+                  <li>
+                    <a href="#" class="bestiary">Bestiary</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helpOnHelp">Help on Help</a>
+                  </li>
+                  <li>
+                    <a href="#" class="highScores">High Scores</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#" class="orderInfo">Order Information</a>
+                  </li>
+                  <li>
+                    <a href="#" class="aboutCOTW">About Castle of the Winds</a>
+                  </li>
+                </ul>
+=======
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
               Window
@@ -178,6 +369,7 @@
             <ul class="dropdown-menu" role="menu">
               <li>
                 <a href="#">Action</a>
+>>>>>>> master
               </li>
               <li>
                 <a href="#">Another action</a>
@@ -223,6 +415,21 @@
                 <a href="#">About Castle of the Winds</a>
               </li>
             </ul>
+<<<<<<< HEAD
+          </div>
+        </div>
+      </nav>
+      <!-- end top file bar -->
+      <div class="row margin-0">
+        <div class="col-md-6">
+          <ul class="list-inline">
+            <li>Get</li>
+            <li>Free Hand</li>
+            <li>Search</li>
+            <li>Disarm</li>
+            <li>Rest</li>
+            <li>Save</li>
+=======
           </li>
 
           </ul>
@@ -240,6 +447,7 @@
             <li class="actionButton"><a href="#">Disarm</a></li>
             <li class="actionButton"><a href="#">Rest</a></li>
             <li class="actionButton"><a href="#">Save</a></li>
+>>>>>>> master
           </ul>
         </div>
 
@@ -260,6 +468,56 @@
         </div>
       </div>
 
+<<<<<<< HEAD
+    <section>
+      <div class="row margin-0">
+        <div class="clearfix visible-md-block"></div>
+  <!-- Dungeon Window [Currently a blank space that will eventually render the world] -->
+        <div class="col-md-12">
+          <p class="mapStyle">
+          Dungeon Window  XXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER: DESCRIPTION AND STATUS -->
+    <footer class="navbar-fixed-bottom">
+      <div class="row margin-0">
+  <!-- Description Window [Contains action text and info based on player input] -->
+        <div class="col-md-8"><p class="mapStyle">Description Window</p></div>
+  <!-- Status Window [HP current(max)][Mana c(m)][Speed c%/m%][Time Elapsed][Location]-->
+        <div class="col-md-4"><p class="mapStyle">StatusWindow</p></div>
+      </div>
+    </footer>
+  </body>
+=======
     </nav>
     <!-- end top file bar -->
   </header>
@@ -285,4 +543,5 @@
   <!--  -->
 
 </body>
+>>>>>>> master
 </html>
